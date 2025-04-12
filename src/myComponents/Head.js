@@ -24,6 +24,9 @@ export default function Head() {
                                 <a href='#resume'><button className="nav-link text-white"  >Resume</button></a>
                             </li>
                             <li className="nav-item">
+                                <a href='#project'><button className="nav-link text-white"  >Projects</button></a>
+                            </li>
+                            <li className="nav-item">
                                 <a href='#contact'><button className="nav-link text-white" >Contact</button></a>
                             </li>
                         </ul>
