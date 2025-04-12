@@ -10,7 +10,7 @@ const Resume = () => {
         if (!question) return;
         setLoading(true);
         try {
-            const res = await fetch('https://portfolio.onrender.com/chat', {
+            const res = await fetch('https://portfolio-z1pb.onrender.com/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
