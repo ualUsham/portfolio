@@ -1,0 +1,54 @@
+.resume-container {
+    margin-top: 80vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8%;
+
+    background: 
+    linear-gradient(to left, rgba(0, 0, 0, 0)20%,  rgba(0, 0, 0, 1)100%), 
+    linear-gradient(to right, rgba(0, 0, 0, 0)70%,  rgba(0, 0, 0, 1)100vw), 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0)80%, rgba(0, 0, 0, 1)100%),
+    linear-gradient(to top, rgba(0, 0, 0, 0)80%, rgba(0, 0, 0, 1)100%),
+    url(/public/chess/chess.jpeg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.resume-container h1{
+    font-size: clamp(25px, 4vw, 70px);
+}
+
+#ask{
+    color: var(--pcolor);
+    border-color: var(--pcolor);
+}
+
+#ask:hover {
+    box-shadow: 0 0 10px var(--pcolor);
+    color: white;
+}
+
+.ask{
+    width: clamp(300px, 60vw, 700px);
+}  
+
+#download{
+    color: white;
+    background-color: rgba(92, 246, 74, 0.8 );
+}
+#download:hover{
+    background-color: rgba(92, 246, 74, 0.1 );
+    color: var(--pcolor);
+}
+.answer{
+    width: clamp(350px, 60vw, 750px);
+    font-size: 15px;
+}
+.response{
+    width: clamp(300px, 50vw, 750px);
+    border: 2px solid var(--pcolor);
+    border-radius: 10px;
+}

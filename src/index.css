@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'poppins-semibold';
+  src: url('/public/Poppins-SemiBold.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'poppins-semibold', 'Roboto', 'sans-serif', -apple-system, BlinkMacSystemFont !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  --pcolor:#5cf64a;
+  --slideLength:28vw;
+}
+a{
+  text-decoration: none;
+}

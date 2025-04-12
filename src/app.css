@@ -1,0 +1,39 @@
+.phrase1{
+    width: 100%;
+    font-family: 'lora';
+    font-style: italic;
+    text-align: center;
+    transform: translateY(350px);
+    font-size: clamp(13px,1.3vw,50px);
+}
+.phrase2{
+    width: 100%;
+    font-family: 'lora';
+    font-style: italic;
+    text-align: center;
+    font-size: clamp(13px,1.3vw,50px);
+}
+.phrase3{
+    width: 100%;
+    font-family: 'lora';
+    font-style: italic;
+    text-align: center;
+    transform: translateY(16vw);
+    font-size: clamp(13px,1.3vw,50px);
+}
+.phrase4{
+    width: 100%;
+    font-family: 'lora';
+    font-style: italic;
+    text-align: center;
+    transform: translateY(-10vh);
+    font-size: clamp(13px,1.3vw,50px);
+}
+.phrase5{
+    width: 100%;
+    font-family: 'lora';
+    font-style: italic;
+    text-align: center;
+    transform: translateY(45vh);
+    font-size: clamp(13px,1.3vw,50px);
+}

@@ -1,0 +1,12 @@
+.bg-dark{
+    background: black !important;
+}
+.nav-link:hover{
+    color: var(--pcolor) !important;
+}
+.navbar-brand{
+    font-size: clamp(24.5px,2.6vw,80px);
+}
+.nav-link{
+    font-size: clamp(15px,1.5vw,40px);
+}
