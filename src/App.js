@@ -5,7 +5,7 @@ import Contact from './myComponents/Contact.js';
 import Footer from './myComponents/Footer.js';
 import Resume from './myComponents/resume.js';
 import Project from './myComponents/Project.js';
-
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <section id='project'><Project /></section> 
       <section id="contact"><Contact /></section>
       <Footer />
+      <Analytics />
     </>
   );
 }
